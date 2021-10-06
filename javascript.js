@@ -1,6 +1,10 @@
 const Quote = document.getElementById("quote");
 const Author = document.getElementById("author");
 
+function addEvent(){
+    document.addEventListener("click",getQuote);
+}
+
 //function to generate the new quote each time
 function getQuote(){
     fetch("http://quotes.stormconsultancy.co.uk/random.json").then((res) => {
