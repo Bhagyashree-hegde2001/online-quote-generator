@@ -29,6 +29,7 @@ h1
     -moz-transition:1s;
     -ms-transition:1s;
     -o-transition:1s;
+    margin-bottom:3.5rem;
 }
 h1:hover{
     font-size: 3.2em;
@@ -95,7 +96,7 @@ h1:hover{
 {
     position: absolute;
     bottom:3%;
-    color: lightsalmon;
+    color: orangered;
     transition:1s;
     -webkit-transition:1s;
     -moz-transition:1s;
@@ -104,5 +105,9 @@ h1:hover{
 }
 #footer:hover{
     color: navy;
+}
+
+h3{
+    padding-left:1.8rem;
 }
 
