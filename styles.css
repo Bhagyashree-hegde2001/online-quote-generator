@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',sans-serif;
+    line-height: 1.6rem;
+}
+
+ /* --------------------TAG SELECTOR --------------- */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg,aqua,blue);
+}
+
+h1
+{
+    font-family: Sofia;
+    font-size: 3em;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+h1:hover{
+    font-size: 3.2em;
+}
+
+ /* --------------------CLASS SELECTOR --------------- */
+.container
+{
+    width: 500px;
+    background: #212121;
+    box-shadow: 0 0 30px #2121216b;
+    padding: 3.5em 2.6em;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container .author
+{
+    margin-top: 1em;
+    background: linear-gradient(to right,#16A085,#f4d03f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn 
+{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: -8%;
+    background: linear-gradient(to right,#16A085,#f4d03f);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    border-radius: 12px;
+    box-shadow: -10px 20px 50px #16A0848e,10px 20px 50px #f4d03f98;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: linear-gradient(to right,aqua,blue);
+    color: black;
+}
+
+.hthree
+{
+    position: relative;
+    top: 33px;
+    left: 145px;
+    right: auto;
+}
+
+ /* --------------------ID SELECTOR --------------- */
+#heading
+{
+    position: absolute;
+    top: 8%;
+}
+
+#footer
+{
+    position: absolute;
+    bottom:3%;
+    color: lightsalmon;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+#footer:hover{
+    color: navy;
+}
+
