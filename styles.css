@@ -17,7 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(45deg,aqua,blue);
+    background-image: linear-gradient(to right,aqua,rgb(74, 74, 211));
 }
 
 h1
@@ -72,7 +72,7 @@ h1:hover{
     transition: 0.5s;
 }
 .btn:hover {
-    background: linear-gradient(to right,aqua,blue);
+    background: linear-gradient(to right,aqua,rgb(74, 74, 211));
     color: black;
 }
 
@@ -95,7 +95,7 @@ h1:hover{
 {
     position: absolute;
     bottom:3%;
-    color: lightsalmon;
+    color: rgba(13, 68, 71, 0.808);
     transition:1s;
     -webkit-transition:1s;
     -moz-transition:1s;
